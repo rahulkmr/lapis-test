@@ -1,0 +1,8 @@
+<h1>Hello world</h1>
+<p>Welcome to my page</p>
+<h3>Here are my favorite things.</h3>
+<ol>
+    <% for idx, thing in pairs(my_favorite_things) do %>
+        <li><%= thing %></li>
+    <% end %>
+</ol>
